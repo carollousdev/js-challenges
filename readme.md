@@ -6,7 +6,8 @@ We will also provide a way to solve the problem through our YouTube. Source: htt
 
 ## Getting Started
 
-1. Clone the repo
+1. Clone the repo:
+   `git clone https://github.com/carollousdev/js-challenges/`
 2. Run `npm install`
 3. Copy this code before test in the last row of your file. If you see `expect()` you fill with your function. ex: `expect(helloWorld())` and if you see `toBe()` you fill with the answer of question. Ex: `toBe("Hello World!")`:
 
