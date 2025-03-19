@@ -76,7 +76,8 @@ function calculator(num1: number, num2: number, operator: string): number;
 test("Calculator | Collection of 2025 Javascript Testing", () => {
   expect(calculator(1, 2, "+")).toBe(3);
   expect(calculator(10, 5, "-")).toBe(5);
-  expect(calculator(2, 2, "*+*")).toBe(4);
+  expect(calculator(2, 2, "*")).toBe(4);
+  expect(calculator(4, 2, "/")).toBe(2);
 });
 ```
 
@@ -127,7 +128,7 @@ function findMaxNumber(arr: number[]): number;
 ### Test
 
 ```js
-test("Find MaxNumber | Collection of 2025 Javascript Testing", () => {
+test("Find Max Number | Collection of 2025 Javascript Testing", () => {
   expect(findMaxNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])).toBe(10);
   expect(findMaxNumber([10, 9, 8, 7, 6, 5, 4, 3, 2, 1])).toBe(10);
   expect(findMaxNumber([1, 2, 3, 4, 5, 10, 9, 8, 7, 6])).toBe(10);

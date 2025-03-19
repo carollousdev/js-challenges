@@ -46,15 +46,11 @@ const countOccurrences = (a, b) => {
 // #QUESTION5 | FIND MAX NUMBER
 const findMaxNumber = array => {
     let i = 0;
-    for (x = 0; x <= array.length; x++) {
+    for (x = 0; x < array.length; x++) {
         if (array[x] > i) {
-            i = x;
+            i = array[x];
         }
     }
 
     return i;
 }
-
-test("Hello World | Collection of 2025 Javascript Testing", () => {
-    expect(helloWorld()).toBe("Hello World!");
-  });
