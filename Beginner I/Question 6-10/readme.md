@@ -131,9 +131,13 @@ function removeDuplicates(arr: any[]): any[];
 ### Examples
 
 ```js
-test("Count Vowels | Collection of 2025 Javascript Testing", () => {
-  expect(removeDuplicates([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])).toBe([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
-  expect(removeDuplicates([1, 1, 1, 1, 1, 1, 1, 1, 1, 1])).toBe([1]);
-  expect(removeDuplicates([1, 2, 3, 4, 5, true, 1, 'hello' 2, 3, 'hello', true])).toBe([1, 2, 3, 4, 5, true, 'hello']);
+test("Remove Duplicates | Collection of 2025 Javascript Testing", () => {
+  expect(removeDuplicates([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])).toEqual([
+    1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+  ]);
+  expect(removeDuplicates([1, 1, 1, 1, 1, 1, 1, 1, 1, 1])).toEqual([1]);
+  expect(
+    removeDuplicates([1, 2, 3, 4, 5, true, 1, "hello", 2, 3, "hello", true])
+  ).toEqual([1, 2, 3, 4, 5, true, "hello"]);
 });
 ```
