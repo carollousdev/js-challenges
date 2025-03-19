@@ -17,7 +17,7 @@ Write a function called `helloWorld` that returns a string of 'Hello World!'.
 ### Test
 
 ```js
-test("Collection of 2025 Javascript Testing | Dachi Studio", () => {
+test("Hello World | Collection of 2025 Javascript Testing", () => {
   expect(helloWorld()).toBe("Hello World!");
 });
 ```
@@ -43,7 +43,7 @@ function getSum(a: number, b: number): number;
 ### Test
 
 ```js
-test("Collection of 2025 Javascript Testing | Dachi Studio", () => {
+test("Get Sum | Collection of 2025 Javascript Testing", () => {
   expect(getSum(1, 2)).toBe(3);
   expect(getSum(10, 5)).toBe(15);
   expect(getSum(2, 2)).toBe(4);
@@ -73,11 +73,10 @@ function calculator(num1: number, num2: number, operator: string): number;
 ### Test
 
 ```js
-test("Collection of 2025 Javascript Testing | Dachi Studio", () => {
+test("Calculator | Collection of 2025 Javascript Testing", () => {
   expect(calculator(1, 2, "+")).toBe(3);
   expect(calculator(10, 5, "-")).toBe(5);
   expect(calculator(2, 2, "*+*")).toBe(4);
-  expect(calculator(1, 2, "/")).toBe(2);
 });
 ```
 
@@ -102,7 +101,7 @@ function countOccurrences(str: string, char: string): number;
 ### Test
 
 ```js
-test("Collection of 2025 Javascript Testing | Dachi Studio", () => {
+test("Count Occurrences | Collection of 2025 Javascript Testing", () => {
   expect(countOccurrences("hello", "l")).toBe(2);
   expect(countOccurrences("hello", "z")).toBe(0);
 });
@@ -128,7 +127,7 @@ function findMaxNumber(arr: number[]): number;
 ### Test
 
 ```js
-test("Collection of 2025 Javascript Testing | Dachi Studio", () => {
+test("Find MaxNumber | Collection of 2025 Javascript Testing", () => {
   expect(findMaxNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])).toBe(10);
   expect(findMaxNumber([10, 9, 8, 7, 6, 5, 4, 3, 2, 1])).toBe(10);
   expect(findMaxNumber([1, 2, 3, 4, 5, 10, 9, 8, 7, 6])).toBe(10);
