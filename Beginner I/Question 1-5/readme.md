@@ -14,10 +14,12 @@ Write a function called `helloWorld` that returns a string of 'Hello World!'.
   function helloWorld(): string;
 ```
 
-### Examples
+### Test
 
 ```js
-helloWorld(); // 'Hello World!'
+test("Collection of 2025 Javascript Testing | Dachi Studio", () => {
+  expect(helloWorld()).toBe("Hello World!");
+});
 ```
 
 # QUESTION 2 | GET SUM
@@ -38,13 +40,15 @@ Write a function called `getSum` that takes in two numbers and returns the sum o
 function getSum(a: number, b: number): number;
 ```
 
-### Examples
+### Test
 
 ```js
-getSum(1, 2); // 3
-getSum(10, 5); // 15
-getSum(2, 2); // 4
-getSum(10, 5); // 15
+test("Collection of 2025 Javascript Testing | Dachi Studio", () => {
+  expect(getSum(1, 2)).toBe(3);
+  expect(getSum(10, 5)).toBe(15);
+  expect(getSum(2, 2)).toBe(4);
+  expect(getSum(10, 5)).toBe(15);
+});
 ```
 
 # QUESTION 3 | CALCULATOR
@@ -66,13 +70,15 @@ Write a function called `calculator` that takes in 2 numbers and an operator and
 function calculator(num1: number, num2: number, operator: string): number;
 ```
 
-### Examples
+### Test
 
 ```js
-calculator(1, 2, "+"); // 3
-calculator(10, 5, "-"); // 5
-calculator(2, 2, "*"); // 4
-calculator(10, 5, "/"); // 2
+test("Collection of 2025 Javascript Testing | Dachi Studio", () => {
+  expect(calculator(1, 2, "+")).toBe(3);
+  expect(calculator(10, 5, "-")).toBe(5);
+  expect(calculator(2, 2, "*+*")).toBe(4);
+  expect(calculator(1, 2, "/")).toBe(2);
+});
 ```
 
 # QUESTION 4 |COUNT OCCURRENCES
@@ -93,11 +99,13 @@ Write a function called `countOccurrences` that takes in a string and a characte
 function countOccurrences(str: string, char: string): number;
 ```
 
-### Examples
+### Test
 
 ```js
-countOccurrences("hello", "l"); // 2
-countOccurrences("hello", "z"); // 0
+test("Collection of 2025 Javascript Testing | Dachi Studio", () => {
+  expect(countOccurrences("hello", "l")).toBe(2);
+  expect(countOccurrences("hello", "z")).toBe(0);
+});
 ```
 
 # QUESTION 5 | FIND MAX NUMBER
@@ -117,10 +125,12 @@ Write a function called `findMaxNumber` that takes in an array of numbers and re
 function findMaxNumber(arr: number[]): number;
 ```
 
-### Examples
+### Test
 
 ```js
-findMaxNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]); // 10
-findMaxNumber([10, 9, 8, 7, 6, 5, 4, 3, 2, 1]); // 10
-findMaxNumber([1, 2, 3, 4, 5, 10, 9, 8, 7, 6]); // 10
+test("Collection of 2025 Javascript Testing | Dachi Studio", () => {
+  expect(findMaxNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])).toBe(10);
+  expect(findMaxNumber([10, 9, 8, 7, 6, 5, 4, 3, 2, 1])).toBe(10);
+  expect(findMaxNumber([1, 2, 3, 4, 5, 10, 9, 8, 7, 6])).toBe(10);
+});
 ```
