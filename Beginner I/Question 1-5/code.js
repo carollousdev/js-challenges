@@ -54,3 +54,7 @@ const findMaxNumber = array => {
 
     return i;
 }
+
+test("Hello World | Collection of 2025 Javascript Testing", () => {
+    expect(helloWorld()).toBe("Hello World!");
+  });
