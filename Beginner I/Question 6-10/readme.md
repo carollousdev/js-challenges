@@ -18,9 +18,13 @@ function titleCase(str: string): string;
 ### Examples
 
 ```js
-titleCase("I'm a little tea pot"); // I'm A Little Tea Pot
-titleCase("sHoRt AnD sToUt"); // Short And Stout
-titleCase("HERE IS MY HANDLE HERE IS MY SPOUT"); // Here Is My Handle Here Is My Spout
+test("Title Case | Collection of 2025 Javascript Testing", () => {
+  expect(titleCase("I'm a little tea pot")).toBe("I'm A Little Tea Pot");
+  expect(titleCase("sHoRt AnD sToUt")).toBe("Short And Stout");
+  expect(titleCase("HERE IS MY HANDLE HERE IS MY SPOUT")).toBe(
+    "Here Is My Handle Here Is My Spout"
+  );
+});
 ```
 
 # QUESTION 7 | REVERSE STRING
@@ -43,9 +47,11 @@ function reverseString(str: string): string;
 ### Examples
 
 ```js
-reverseString("hello"); // 'olleh'
-reverseString("world"); // 'dlrow'
-reverseString(""); // ''
+test("Reverse String | Collection of 2025 Javascript Testing", () => {
+  expect(reverseString("hello")).toBe("olleh");
+  expect(reverseString("world")).toBe("dlrow");
+  expect(reverseString("")).toBe("");
+});
 ```
 
 # QUESTION 8 | IS PALINDROME
@@ -70,10 +76,12 @@ function isPalindrome(str: string): boolean;
 ### Examples
 
 ```js
-isPalindrome("madam"); // true
-isPalindrome("racecar"); // true
-isPalindrome("hello"); // false
-isPalindrome(""); // true
+test("Is Palindrome | Collection of 2025 Javascript Testing", () => {
+  expect(isPalindrome("madam")).toBe(true);
+  expect(isPalindrome("racecar")).toBe(true);
+  expect(isPalindrome("hello")).toBe(false);
+  expect(isPalindrome("")).toBe(true);
+});
 ```
 
 # QUESTION 9 | COUNT VOWELS
@@ -96,9 +104,11 @@ function countVowels(str: string): number;
 ### Examples
 
 ```js
-countVowels("hello"); // 2
-countVowels("why"); // 0
-countVowels("mississippi"); // 4
+test("Count Vowels | Collection of 2025 Javascript Testing", () => {
+  expect(countVowels("hello")).toBe(2);
+  expect(countVowels("why")).toBe(0);
+  expect(countVowels("mississippi")).toBe(4);
+});
 ```
 
 # QUESTION 10 | REMOVE DUPLICATES
@@ -121,7 +131,9 @@ function removeDuplicates(arr: any[]): any[];
 ### Examples
 
 ```js
-removeDuplicates([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-removeDuplicates([1, 1, 1, 1, 1, 1, 1, 1, 1, 1]); // [1]
-removeDuplicates([1, 2, 3, 4, 5, true, 1, 'hello' 2, 3, 'hello', true]); // [1, 2, 3, 4, 5, true, 'hello']
+test("Count Vowels | Collection of 2025 Javascript Testing", () => {
+  expect(removeDuplicates([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])).toBe([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+  expect(removeDuplicates([1, 1, 1, 1, 1, 1, 1, 1, 1, 1])).toBe([1]);
+  expect(removeDuplicates([1, 2, 3, 4, 5, true, 1, 'hello' 2, 3, 'hello', true])).toBe([1, 2, 3, 4, 5, true, 'hello']);
+});
 ```

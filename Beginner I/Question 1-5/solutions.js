@@ -1,16 +1,15 @@
 
-
-// #QUESTION1 | HELLO WORLD
+/** #QUESTION1 | HELLO WORLD */
 const helloWorld = () => {
     return 'Hello World!'
 }
 
-// #QUESTION2 | GET SUM
+/** #QUESTION2 | GET SUM */
 const getSum = (a, b) => {
     return a + b;
 }
 
-// #QUESTION3 | CALCULATOR
+/**  #QUESTION3 | CALCULATOR */
 const calculator = (a, b, operator) => {
     switch (operator) {
         case "+":
@@ -30,7 +29,7 @@ const calculator = (a, b, operator) => {
     }
 }
 
-// #QUESTION4 | COUNT OCCURRENCES
+/** #QUESTION4 | COUNT OCCURRENCES */
 const countOccurrences = (a, b) => {
     const arr = a.split('');
     let i = 0;
@@ -43,7 +42,7 @@ const countOccurrences = (a, b) => {
     return i;
 }
 
-// #QUESTION5 | FIND MAX NUMBER
+/** #QUESTION5 | FIND MAX NUMBER */
 const findMaxNumber = array => {
     let i = 0;
     for (x = 0; x < array.length; x++) {
