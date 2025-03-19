@@ -1,5 +1,7 @@
+
+
 // #QUESTION1 | HELLO WORLD
-function helloWorld() {
+const helloWorld = () => {
     return 'Hello World!'
 }
 
