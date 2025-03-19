@@ -37,6 +37,7 @@ const countOccurrences = (a, b) => {
             i++;
         }
     }
+
     return i;
 }
 
@@ -48,5 +49,6 @@ const findMaxNumber = array => {
             i = x;
         }
     }
+
     return i;
 }
