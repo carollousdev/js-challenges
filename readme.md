@@ -9,13 +9,6 @@ We will also provide a way to solve the problem through our YouTube. Source: htt
 1. Clone the repo:
    `git clone https://github.com/carollousdev/js-challenges/`
 2. Run `npm install`
-3. Copy this code before test in the last row of your file. If you see `expect()` you fill with your function. ex: `expect(helloWorld())` and if you see `toBe()` you fill with the answer of question. Ex: `toBe("Hello World!")`:
-
-```js
-test("Collection of 2025 Javascript Testing | Dachi Studio", () => {
-  expect().toBe();
-});
-```
-
-4. Rename `code.js` to `code.test.js` according to where the `code.js` file is located.
-5. Run `npm run test`
+3. Rename `code.js` to `code.test.js` according to where the `code.js` file is located.
+4. Run `npm run test`
+5. Happy coding ☺ ☺ 😍 
