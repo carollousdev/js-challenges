@@ -12,3 +12,8 @@ These are mostly challenges that have to do with loops, conditionals, and string
 8. [Palindrome](https://github.com/carollousdev/js-challenges/tree/main/Beginner%20I/Question%206-10#question-7--reverse-string)
 9. [Count Vowels](https://github.com/carollousdev/js-challenges/tree/main/Beginner%20I/Question%206-10#question-7--reverse-string)
 10. [Remove Duplicates](https://github.com/carollousdev/js-challenges/tree/main/Beginner%20I/Question%206-10#question-7--reverse-string)
+11. [FizzBuzz Array]()
+12. [Array Intersection]()
+13. [Display Likes]()
+14. [Find Missing Number]()
+15. [Find Missing Letter]()
