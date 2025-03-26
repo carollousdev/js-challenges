@@ -17,3 +17,8 @@ These are mostly challenges that have to do with loops, conditionals, and string
 13. [Display Likes](https://github.com/carollousdev/js-challenges/tree/main/Beginner%20100%20Challenges/Question%2011-15#question-13--display-likes)
 14. [Find Missing Number](https://github.com/carollousdev/js-challenges/tree/main/Beginner%20100%20Challenges/Question%2011-15#question-14--find-the-missing-number)
 15. [Find Missing Letter](https://github.com/carollousdev/js-challenges/tree/main/Beginner%20100%20Challenges/Question%2011-15#question-15--find-missing-letter)
+16. [Are All Characters Unique](https://github.com/carollousdev/js-challenges/tree/main/Beginner%20100%20Challenges/Question%2016-20#question-16--are-all-chracters-unique)
+17. [First Non Repeating Character](https://github.com/carollousdev/js-challenges/tree/main/Beginner%20100%20Challenges/Question%2016-20#question-17--first-non-repeating-character)
+18. [Dice Game Simulation](https://github.com/carollousdev/js-challenges/tree/main/Beginner%20100%20Challenges/Question%2016-20#question-17--first-non-repeating-character)
+19. [Format Phone Number](https://github.com/carollousdev/js-challenges/tree/main/Beginner%20100%20Challenges/Question%2016-20#question-17--first-non-repeating-character)
+20. [Validate Email](https://github.com/carollousdev/js-challenges/tree/main/Beginner%20100%20Challenges/Question%2016-20#question-17--first-non-repeating-character)
