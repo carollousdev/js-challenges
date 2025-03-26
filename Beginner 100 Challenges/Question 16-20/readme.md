@@ -103,12 +103,15 @@ test("Dice Game Simulation", () => {
   const simulationResults = diceGameSimulation(numSimulations);
 
   simulationResults.forEach((result) => {
-    console.log(`Simulation Result: ${result.finalResult}`);
-    result.rolls.forEach((roll) => {
-      console.log(
-        `  Dice 1: ${roll.dice1}, Dice 2: ${roll.dice2}, Sum: ${roll.sum}, Result: ${roll.result}`
-      );
-    });
+    let sum = result.dice1 + result.dice2;
+    expect(result.dice1).toBeLessThanOrEqual(6);
+    expect(result.dice2).toBeLessThanOrEqual(6);
+    if (sum === 7 || sum === 11) {
+      results = "win";
+    } else if (sum === 2 || sum === 3 || sum === 12) {
+      results = "lose";
+    } else results = "roll again";
+    expect(result.result).toBe(results);
   });
 });
 ```

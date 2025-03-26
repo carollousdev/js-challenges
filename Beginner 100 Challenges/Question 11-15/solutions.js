@@ -34,18 +34,17 @@ const arrayIntersection = (arg1, arg2) => {
 }
 
 const displayLikes = arg1 => {
-    const text = 'like this';
     if (arg1.length === 0) {
-        return `No one ${text}`
+        return `no one likes this`
     } else if (arg1.length > 4) {
-        return `${arg1[0]}, ${arg1[1]} and ${arg1.length - 2} others ${text}`;
+        return `${arg1[0]}, ${arg1[1]} and ${arg1.length - 2} others like this`;
     } else if (arg1.length === 4) {
-        return `${arg1[0]}, ${arg1[1]} and 2 others ${text}`;
+        return `${arg1[0]}, ${arg1[1]} and 2 others like this`;
     } else if (arg1.length === 3) {
-        return `${arg1[0]}, ${arg1[1]} and ${arg1[2]} ${text}`;
+        return `${arg1[0]}, ${arg1[1]} and ${arg1[2]} like this`;
     } else if (arg1.length === 2) {
-        return `${arg1[0]} and ${arg1[1]} ${text}`;
-    } else return `${arg1} ${text}`;
+        return `${arg1[0]} and ${arg1[1]} like this`;
+    } else return `${arg1} likes this`;
 }
 
 const findMissingNumber = arg1 => {
