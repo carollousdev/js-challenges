@@ -9,6 +9,6 @@ We will also provide a way to solve the problem through our YouTube. Source: htt
 1. Clone the repo:
    `git clone https://github.com/carollousdev/js-challenges/`
 2. Run `npm install`
-3. Rename `code.js` to `code.test.js` according to where the `code.js` file is located.
+3. Rename `yourchallenges.js` to `yourchallenges.test.js` according to where the `code.js` file is located.
 4. Run `npm run test`
-5. Happy coding ☺ ☺ 😍 
+5. Happy coding ☺ ☺ 😍
